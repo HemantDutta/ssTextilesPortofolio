@@ -1,7 +1,100 @@
 /*Styles for S.S. Textiles*/
 /*Designed By Hemant Dutta*/
 
-/*Home Page*/
-header{
-    width: 100vw;
+/*===Body===*/
+body{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*==Home Page==*/
+
+/*Navbar*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav .inner-cont, nav .outer-cont {
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav .outer-cont {
+    max-width: 1350px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav .inner-cont{
+    max-width: 1000px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    z-index: 9;
+    transition: 0.7s ease;
+    color: white;
+}
+
+nav .brand{
+    font-size: 1.6em;
+}
+
+nav .inner-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav .outer-cont ul {
+    width: 100%;
+    margin: 0 1em;
+}
+
+nav .outer-cont ul li {
+    display: inline-block;
+    margin: 0 0.7em;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.3s ease;
+    font-weight: 600;
+    color: white;
+}
+
+nav a:hover{
+    color: #aa16e5;
+}
+
+nav .fa-bars {
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-align: right;
+}
+
+nav .menu {
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }

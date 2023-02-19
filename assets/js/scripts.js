@@ -40,6 +40,7 @@ window.addEventListener("scroll", ()=>{
 
 //Intro Section
 
+//Background
 gsap.to(".intro", {
     backgroundPosition: "50% -100%",
     ease: "none",
@@ -50,3 +51,20 @@ gsap.to(".intro", {
         scrub: 0.2
     }
 });
+
+//Brand Name Animation
+gsap.to(".itha1", {
+    y: 0,
+    stagger: 0.2,
+    delay: 0.2,
+    opacity: 1,
+    duration: 1
+})
+
+//Brand Description Animation
+gsap.to(".itpa1", {
+    stagger: 0.2,
+    delay: 0.2,
+    opacity: 1,
+    duration: 1
+})

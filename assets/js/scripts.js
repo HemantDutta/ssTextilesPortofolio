@@ -96,6 +96,15 @@ gsap.from(".image-cont", {
         trigger: ".image-cont",
         start: "top bottom"
     },
+    y: 200,
+    opacity: 0,
+    duration: 1
+})
+
+gsap.from("#dyBot", {
+    scrollTrigger: {
+        trigger: "#dyBot",
+    },
     y: 115,
     opacity: 0,
     duration: 1

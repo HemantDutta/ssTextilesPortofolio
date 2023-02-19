@@ -68,3 +68,35 @@ gsap.to(".itpa1", {
     opacity: 1,
     duration: 1
 })
+
+
+//Dyeing Section
+gsap.to(".image-cont", {
+    backgroundPosition: "100% 65%",
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".image-cont",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: 0.5
+    }
+});
+
+gsap.from("#dyTop", {
+    scrollTrigger: {
+        trigger: ".dyeing",
+    },
+    y: 115,
+    opacity: 0,
+    duration: 1
+})
+
+gsap.from(".image-cont", {
+    scrollTrigger: {
+        trigger: ".image-cont",
+        start: "top bottom"
+    },
+    y: 115,
+    opacity: 0,
+    duration: 1
+})

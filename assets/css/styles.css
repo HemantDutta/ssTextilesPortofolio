@@ -4,7 +4,7 @@
 /*===Body===*/
 body{
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: sans-serif;
     background-color: #000000;
     overflow-x: hidden;
 }
@@ -223,4 +223,37 @@ nav .menu #menu_logo {
 /*Dyeing Section*/
 .dyeing {
     height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dyeing .top-text {
+    text-align: center;
+}
+
+.dyeing .top-text h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.dyeing .image-cont {
+    background-image: url("/assets/images/sst_dyeing_bg.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 80vw;
+    border-radius: 20px;
+    margin-top: 2rem;
+    background-position: 0% 65%;
+}
+
+/*Weaving Section*/
+.weaving {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/assets/images/VID-20230219-WA0035.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
 }

@@ -234,7 +234,7 @@ nav .menu #menu_logo {
 }
 
 .dyeing .image-cont {
-    background-image: url(assets/images/sst_dyeing_bg.jpg);
+    background-image: url("assets/images/sst_dyeing_bg.JPG");
     background-size: auto;
     background-repeat: no-repeat;
     height: 60vh;

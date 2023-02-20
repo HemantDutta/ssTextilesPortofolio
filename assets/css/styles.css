@@ -40,6 +40,10 @@ nav .inner-cont{
     max-width: 1000px;
 }
 
+nav .fa-bars:hover {
+    color: #aa16e5;
+}
+
 
 nav {
     position: fixed;

@@ -125,10 +125,10 @@ gsap.from(".weTop", {
 gsap.from(".weBot", {
     scrollTrigger: {
         trigger: ".weBot",
-        start: "top bottom",
-        end: "bottom top"
+        end: "bottom 100px",
+        scrub: 0.5
     },
-    x: 200,
+    x: 100,
     opacity: 0,
-    scrub: 0.5
+
 })

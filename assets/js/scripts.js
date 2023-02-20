@@ -109,3 +109,26 @@ gsap.from("#dyBot", {
     opacity: 0,
     duration: 1
 })
+
+//Weaving Section
+
+gsap.from(".weTop", {
+    scrollTrigger: {
+        trigger: ".weTop",
+        start: "top bottom"
+    },
+    y: 115,
+    opacity: 0,
+    duration:1
+})
+
+gsap.from(".weBot", {
+    scrollTrigger: {
+        trigger: ".weBot",
+        start: "top bottom",
+        end: "bottom top"
+    },
+    x: 200,
+    opacity: 0,
+    scrub: 0.5
+})

@@ -330,4 +330,7 @@ nav .menu #menu_logo {
 .finishing {
     min-height: 100vh;
     width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/finishing_temp_sst.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }

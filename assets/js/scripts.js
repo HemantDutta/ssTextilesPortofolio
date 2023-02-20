@@ -38,6 +38,16 @@ window.addEventListener("scroll", ()=>{
    }
 });
 
+//Navbar Animation
+gsap.from("#navbar", {
+    scrollTrigger: {
+        trigger: "#navbar"
+    },
+    y:-200,
+    opacity:0,
+    duration: 0.8
+})
+
 //Intro Section
 
 //Background

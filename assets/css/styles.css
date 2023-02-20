@@ -282,7 +282,7 @@ nav .menu #menu_logo {
 .weaving {
     min-height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/VID-20230219-WA0035.gif");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,1)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/VID-20230219-WA0035.gif");
     background-size: cover;
     background-repeat: no-repeat;
     flex-wrap: wrap;
@@ -330,7 +330,33 @@ nav .menu #menu_logo {
 .finishing {
     min-height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/finishing_temp_sst.jpg");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.8)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/finishing_temp_sst.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.finishing .content > * {
+    flex:1;
+}
+
+.finishing .content .fText {
+    height: 100vh;
+}
+
+.finishing .content .fText h1{
+    font-size: 6em;
+}
+
+.finishing .content .fText .fpCont {
+    background: rgba(255,255,255,0.25);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255,255,255,0.125);
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.finishing .content .fText .fpCont p {
+    text-align: justify;
 }

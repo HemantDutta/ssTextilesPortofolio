@@ -286,6 +286,7 @@ nav .menu #menu_logo {
     background-size: cover;
     background-repeat: no-repeat;
     flex-wrap: wrap;
+    background-position: 50% 100%;
 }
 
 .weaving > * {

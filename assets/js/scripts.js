@@ -152,3 +152,15 @@ gsap.from(".weBot", {
     opacity: 0,
 
 })
+
+//Finishing
+gsap.to(".finishing", {
+    backgroundPosition: "50% -100%",
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".finishing",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: 0.2
+    }
+})

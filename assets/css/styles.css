@@ -389,10 +389,20 @@ nav .menu #menu_logo {
     width: 240px;
 }
 
+@media screen and (max-width: 1091px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .fText {
+        align-items: center;
+    }
+}
+
 /*Footer*/
 .footer {
     min-height: 50vh;
-    padding: 2rem;
+    padding: 2rem 2rem 0rem 2rem;
     width: 100vw;
     position: relative;
 }
@@ -424,10 +434,11 @@ nav .menu #menu_logo {
 
 .contactCont ul li span {
     transition: all 0.4s ease;
+    color: #aa16e5;
 }
 
 .contactCont ul li span:hover {
-    color: #aa16e5;
+    color: #fff;
 }
 
 .quickList {
@@ -454,9 +465,18 @@ nav .menu #menu_logo {
 }
 
 .copyrightStatus {
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
+    width: 100%;
+}
+
+.copyrightStatus p a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.copyrightStatus p a:hover{
+    color: #aa16e5;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 899px) {

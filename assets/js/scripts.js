@@ -164,3 +164,27 @@ gsap.to(".finishing", {
         scrub: 0.2
     }
 })
+
+gsap.from(".fta1", {
+    scrollTrigger: {
+        trigger: ".fta1",
+        start: "top bottom",
+        end: "bottom top"
+    },
+    y: 100,
+    opacity: 0,
+    stagger: 0.2,
+    duration: 1
+})
+
+
+//Footer
+gsap.from(".fca1", {
+    scrollTrigger: {
+        trigger: ".fca1"
+    },
+    stagger: 0.2,
+    y: 50,
+    opacity: 0,
+    duration: 0.5
+})

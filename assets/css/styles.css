@@ -405,6 +405,7 @@ nav .menu #menu_logo {
     padding: 2rem 2rem 0rem 2rem;
     width: 100vw;
     position: relative;
+    background-color: #000;
 }
 
 .footer-cont {

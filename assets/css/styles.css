@@ -389,6 +389,12 @@ nav .menu #menu_logo {
     width: 240px;
 }
 
+@media screen and (max-width: 696px) {
+    .finishing .content .fText h1 {
+        font-size: 15vw;
+    }
+}
+
 @media screen and (max-width: 1091px) {
     .content {
         flex-direction: column;
@@ -433,12 +439,13 @@ nav .menu #menu_logo {
     padding-left: 1rem;
 }
 
-.contactCont ul li span {
+.contactCont ul li span, .contactCont ul li span a {
     transition: all 0.4s ease;
     color: #aa16e5;
+    text-decoration: none;
 }
 
-.contactCont ul li span:hover {
+.contactCont ul li span:hover, .contactCont ul li span a:hover {
     color: #fff;
 }
 

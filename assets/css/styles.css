@@ -2,7 +2,7 @@
 /*Designed By Hemant Dutta*/
 
 /*===Body===*/
-body{
+body {
     margin: 0;
     font-family: sans-serif;
     background-color: #000000;
@@ -15,15 +15,15 @@ body{
 
 /*Scroll Bar*/
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0.4vw;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     display: none;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #aa16e5;
     transition: background-color 0.4s ease;
     border-radius: 20px;
@@ -57,7 +57,7 @@ nav .outer-cont {
     margin: 0 auto;
 }
 
-nav .inner-cont{
+nav .inner-cont {
     max-width: 1000px;
 }
 
@@ -80,7 +80,7 @@ nav {
     border-bottom-left-radius: 20px;
 }
 
-nav .brand{
+nav .brand {
     font-size: 1.6em;
 }
 
@@ -109,7 +109,7 @@ nav a {
     color: white;
 }
 
-nav a:hover{
+nav a:hover {
     color: #aa16e5;
 }
 
@@ -168,16 +168,17 @@ nav .menu #menu_logo {
     opacity: 1;
 }
 
-.navbar-active{
+.navbar-active {
     background-color: #111;
     padding: 1em;
 }
 
 /*Media Queries*/
 @media screen and (max-width: 800px) {
-    nav .inner-cont{
+    nav .inner-cont {
         display: none;
     }
+
     nav .outer-cont {
         grid-template-columns: 1fr 1fr;
     }
@@ -185,8 +186,8 @@ nav .menu #menu_logo {
 
 
 /*Intro Section*/
-.intro{
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); ;
+.intro {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 100%;
@@ -198,12 +199,12 @@ nav .menu #menu_logo {
     flex: 1;
 }
 
-.intro .text h1{
+.intro .text h1 {
     font-size: 8em;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.intro .text p{
+.intro .text p {
     font-size: 2em;
 }
 
@@ -221,7 +222,7 @@ nav .menu #menu_logo {
 
 /*Media Queries*/
 
-@media screen and (max-width: 1091px){
+@media screen and (max-width: 1091px) {
     .intro .text {
         flex-direction: column;
         margin-top: 8rem;
@@ -236,7 +237,7 @@ nav .menu #menu_logo {
         text-align: center;
     }
 
-    .intro .text p{
+    .intro .text p {
         text-align: justify;
     }
 }
@@ -253,7 +254,7 @@ nav .menu #menu_logo {
     text-align: center;
 }
 
-.dyeing .top-text h1{
+.dyeing .top-text h1 {
     font-size: 4em;
     font-weight: bold;
 }
@@ -269,32 +270,32 @@ nav .menu #menu_logo {
     background-position: 0% 65%;
 }
 
-.dyeing .text{
+.dyeing .text {
     margin-top: 4rem;
     width: 80vw;
     margin-bottom: 4rem;
 }
 
-.dyeing .text p{
+.dyeing .text p {
     text-align: justify;
     font-size: 2vw;
     color: white;
 }
 
 @media screen and (max-width: 991px) {
-    .dyeing .text p{
+    .dyeing .text p {
         font-size: 3vw;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .dyeing .text p{
+    .dyeing .text p {
         font-size: 4vw;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .dyeing .text p{
+    .dyeing .text p {
         font-size: 6vw;
     }
 }
@@ -303,7 +304,7 @@ nav .menu #menu_logo {
 .weaving {
     min-height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,1)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/VID-20230219-WA0035.gif");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/VID-20230219-WA0035.gif");
     background-size: cover;
     background-repeat: no-repeat;
     flex-wrap: wrap;
@@ -318,13 +319,13 @@ nav .menu #menu_logo {
     background: rgba(87, 87, 87, 0.55);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(255,255,255,0.125);
+    border: 1px solid rgba(255, 255, 255, 0.125);
     padding: 20px;
     border-radius: 20px;
 }
 
 
-.weaving .weTop h1{
+.weaving .weTop h1 {
     font-size: 6em;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -351,29 +352,29 @@ nav .menu #menu_logo {
 .finishing {
     min-height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.8)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/finishing_temp_sst.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/finishing_temp_sst.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 100%;
 }
 
 .finishing .content > * {
-    flex:1;
+    flex: 1;
 }
 
 .finishing .content .fText {
     height: 100vh;
 }
 
-.finishing .content .fText h1{
+.finishing .content .fText h1 {
     font-size: 6em;
 }
 
 .finishing .content .fText .fpCont {
-    background: rgba(255,255,255,0.25);
+    background: rgba(255, 255, 255, 0.25);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(255,255,255,0.125);
+    border: 1px solid rgba(255, 255, 255, 0.125);
     padding: 20px;
     border-radius: 20px;
     width: 90%;
@@ -389,12 +390,56 @@ nav .menu #menu_logo {
 }
 
 /*Footer*/
-.footer{
+.footer {
     min-height: 50vh;
+    padding: 2rem;
+    width: 100vw;
+    position: relative;
+}
+
+.footer-cont {
+    display: grid;
+    /*place-items: center;*/
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 22px 29px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". .";
+    margin-bottom: 2rem;
+}
+
+.detMap {
+
+}
+
+.detMap iframe {
+
+}
+
+.contactCont ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.contactCont ul li span {
+    transition: all 0.4s ease;
+}
+
+.contactCont ul li span:hover {
+    color: #aa16e5;
 }
 
 .quickList {
     list-style-type: none;
+}
+
+.quickLinks .quickList li{
+    transition: all 0.2s ease;
+}
+
+.quickLinks .quickList li:hover{
+    transform: translateX(15px);
 }
 
 .quickLinks .quickList li a {
@@ -406,4 +451,30 @@ nav .menu #menu_logo {
 
 .quickLinks .quickList li a:hover {
     color: #aa16e5;
+}
+
+.copyrightStatus {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+@media screen and (max-width: 899px) {
+
+    .footer {
+        min-height: max-content;
+    }
+
+    .footer-cont {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px 29px;
+        grid-auto-flow: row;
+        grid-template-areas:
+    "."
+    ".";
+    }
+
+
 }

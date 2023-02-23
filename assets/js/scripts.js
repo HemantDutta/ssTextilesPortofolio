@@ -181,9 +181,29 @@ gsap.from(".fta1", {
 //Footer
 gsap.from(".fca1", {
     scrollTrigger: {
-        trigger: ".fca1"
+        trigger: ".fca1",
+        start: "top bottom"
     },
-    stagger: 0.2,
+    y: 50,
+    opacity: 0,
+    duration: 0.5
+})
+
+gsap.from(".fca2", {
+    scrollTrigger: {
+        trigger: ".fca2",
+        start: "top bottom"
+    },
+    y: 50,
+    opacity: 0,
+    duration: 0.5
+})
+
+gsap.from(".fca3", {
+    scrollTrigger: {
+        trigger: ".fca3",
+        start: "top bottom"
+    },
     y: 50,
     opacity: 0,
     duration: 0.5

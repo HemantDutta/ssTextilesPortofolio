@@ -503,6 +503,86 @@ nav .menu #menu_logo {
     "."
     ".";
     }
+}
 
+/*==Contact Page==*/
 
+.info-form {
+    width: 40vw;
+    border-radius: 20px;
+    background-color: #000;
+    padding: 1.5rem;
+}
+
+.info-form ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.info-form ul li span, .info-form ul li span a {
+    transition: all 0.4s ease;
+    color: #aa16e5;
+    text-decoration: none;
+}
+
+.info-form ul li span:hover, .info-form ul li span a:hover {
+    color: #fff;
+}
+
+.contact-sect {
+    margin-top: 9rem;
+}
+
+.contact-form {
+    width: 40vw;
+    border-radius: 20px;
+    background-color: #000;
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .contact-form, .info-form {
+        width: 100%;
+    }
+}
+
+#head {
+    color: white;
+    transition: all 0.4s ease;
+}
+
+#head:hover {
+    color: #aa16e5;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField label {
+    color: white;
+    font-weight: bold;
+}
+
+.inputField input, textarea {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.inputField input, textarea {
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    padding: 0.5rem;
+    color: #aa16e5;
+    transition: all 0.2s ease;
+}
+
+.inputField input:focus, textarea:focus {
+    border: 2px solid #aa16e5;
+    border-radius: 1rem;
 }

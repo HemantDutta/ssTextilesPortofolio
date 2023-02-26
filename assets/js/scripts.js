@@ -13,29 +13,24 @@ const menu = document.querySelector(".menu");
 const offset = 50;
 
 //Menu Activation Button
-menuBtn.addEventListener('click', ()=>{
+menuBtn.addEventListener('click', () => {
     menu.classList.toggle('menu-open');
-    if(menu.classList.contains('menu-open'))
-    {
+    if (menu.classList.contains('menu-open')) {
         menu.style.height = "80vh";
         menu.style.opacity = "1";
-    }
-    else
-    {
+    } else {
         menu.style.height = "0";
         menu.style.opacity = "0";
     }
 });
 
 //Navbar Solid on Scroll
-window.addEventListener("scroll", ()=>{
-   if(window.scrollY>offset)
-   {
-       navbar.classList.add("navbar-active");
-   }
-   else{
-       navbar.classList.remove("navbar-active");
-   }
+window.addEventListener("scroll", () => {
+    if (window.scrollY > offset) {
+        navbar.classList.add("navbar-active");
+    } else {
+        navbar.classList.remove("navbar-active");
+    }
 });
 
 //Navbar Animation
@@ -43,8 +38,8 @@ gsap.from("#navbar", {
     scrollTrigger: {
         trigger: "#navbar"
     },
-    y:-200,
-    opacity:0,
+    y: -200,
+    opacity: 0,
     duration: 0.8
 })
 
@@ -139,7 +134,7 @@ gsap.from(".weTop", {
     },
     y: 115,
     opacity: 0,
-    duration:1
+    duration: 1
 })
 
 gsap.from(".weBot", {
@@ -207,4 +202,17 @@ gsap.from(".fca3", {
     y: 50,
     opacity: 0,
     duration: 0.5
+})
+
+
+//==Contact Page==//
+
+gsap.from(".csa1", {
+    scrollTrigger: {
+        trigger: ".csa1"
+    },
+    stagger: true,
+    y: 100,
+    opacity: 0,
+    duration: 1
 })

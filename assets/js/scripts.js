@@ -75,6 +75,7 @@ gsap.to(".itpa1", {
 })
 
 
+
 //Dyeing Section
 gsap.to(".image-cont", {
     backgroundPosition: "100% 65%",

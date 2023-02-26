@@ -229,3 +229,13 @@ gsap.from(".gta1", {
     opacity: 0,
     duration: 1
 })
+
+gsap.from(".gal_img", {
+    scrollTrigger: {
+        trigger: ".gal_img"
+    },
+    y: 100,
+    opacity: 0,
+    stagger: 0.2,
+    duration: 1
+})

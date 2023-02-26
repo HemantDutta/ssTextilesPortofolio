@@ -600,6 +600,65 @@ nav .menu #menu_logo {
     font-size: 4em;
 }
 
+@media screen and (max-width: 786px) {
+    .galText h1 {
+        font-size: 15vw;
+    }
+
+    .galText h3 {
+        font-size: 8vw;
+    }
+
+    .gal_img {
+        width: 80vw;
+    }
+}
+
 .photos {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/pg_bg.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url("https://hemantdutta.github.io/ssTextilesPortofolio/assets/images/pg_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.gal_img {
+    height: 450px;
+    width: 450px;
+    padding: 1rem;
+    background-color: #000;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 786px) {
+    .galText h1 {
+        font-size: 15vw;
+    }
+
+    .galText h3 {
+        font-size: 8vw;
+    }
+
+    .gal_img {
+        width: 80vw;
+    }
+
+    .photo-grid row {
+        row-gap: 5rem;
+    }
+}
+
+.gal_img img {
+    object-fit: cover;
+    object-position: center;
+    width: 80%;
+    height: 100%;
+    transition: all 0.4s ease;
+}
+
+.gal_img img:hover {
+    width: 100%;
 }

@@ -216,3 +216,16 @@ gsap.from(".csa1", {
     opacity: 0,
     duration: 1
 })
+
+
+//==Gallery Page==//
+
+gsap.from(".gta1", {
+    scrollTrigger: {
+        trigger: ".gta1",
+    },
+    stagger: 0.2,
+    y:100,
+    opacity: 0,
+    duration: 1
+})

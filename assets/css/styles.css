@@ -324,6 +324,29 @@ nav .menu #menu_logo {
     border-radius: 20px;
 }
 
+.weaving .weBot p {
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 991px) {
+    .weaving .weBot p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .weaving .weBot p{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .weaving .weBot p {
+        font-size: 6vw;
+    }
+}
+
 
 .weaving .weTop h1 {
     font-size: 6em;
@@ -382,6 +405,25 @@ nav .menu #menu_logo {
 
 .finishing .content .fText .fpCont p {
     text-align: justify;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 991px) {
+    .finishing .content .fText .fpCont p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .finishing .content .fText .fpCont p{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .finishing .content .fText .fpCont p {
+        font-size: 6vw;
+    }
 }
 
 .finishing .content .fImgCont .fimg {
